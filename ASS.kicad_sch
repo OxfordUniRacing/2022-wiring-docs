@@ -1,0 +1,36 @@
+(kicad_sch (version 20211123) (generator eeschema)
+
+  (uuid 3d9425be-e5bf-456d-b07c-6cbdd8366f9a)
+
+  (paper "A4")
+
+  (title_block
+    (title "LV Subsystem interconnections")
+    (date "2022-03-16")
+    (rev "0.1")
+    (company "Oxford University Racing")
+    (comment 1 "Hugo Berg, Becky Hu, Lianfeng Shi")
+    (comment 2 "Electronics team")
+  )
+
+  (lib_symbols
+  )
+
+
+  (hierarchical_label "BUTTON_ASS_2" (shape output) (at 132.08 87.63 0)
+    (effects (font (size 1.27 1.27)) (justify left))
+    (uuid 0814e03e-c98e-40bd-8c97-f3eee907c82b)
+  )
+  (hierarchical_label "ASS_2" (shape output) (at 132.08 81.28 0)
+    (effects (font (size 1.27 1.27)) (justify left))
+    (uuid 2c673061-2400-455b-98c8-00c96cf08c03)
+  )
+  (hierarchical_label "BUTTON_ASS_1" (shape input) (at 132.08 85.09 0)
+    (effects (font (size 1.27 1.27)) (justify left))
+    (uuid bea0f34a-e709-4073-8e54-d8bd5986dd42)
+  )
+  (hierarchical_label "ASS_1" (shape input) (at 132.08 78.74 0)
+    (effects (font (size 1.27 1.27)) (justify left))
+    (uuid d78c9102-a54b-4afc-80fa-d13ba22d7279)
+  )
+)

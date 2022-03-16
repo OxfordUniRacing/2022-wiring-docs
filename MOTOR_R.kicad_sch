@@ -1,0 +1,28 @@
+(kicad_sch (version 20211123) (generator eeschema)
+
+  (uuid fe8fb3de-32b1-4c95-9f47-ecc8e624f2d2)
+
+  (paper "A4")
+
+  (title_block
+    (title "LV Subsystem interconnections")
+    (date "2022-03-16")
+    (rev "0.1")
+    (company "Oxford University Racing")
+    (comment 1 "Hugo Berg, Becky Hu, Lianfeng Shi")
+    (comment 2 "Electronics team")
+  )
+
+  (lib_symbols
+  )
+
+
+  (hierarchical_label "COOLING_BUS" (shape tri_state) (at 132.08 90.17 0)
+    (effects (font (size 1.27 1.27)) (justify left))
+    (uuid 16ff65e2-dd81-4501-9b43-c89f8342686e)
+  )
+  (hierarchical_label "MC_BUS" (shape tri_state) (at 132.08 87.63 0)
+    (effects (font (size 1.27 1.27)) (justify left))
+    (uuid 813d994c-530b-4b05-bb5f-a13de7e67d04)
+  )
+)

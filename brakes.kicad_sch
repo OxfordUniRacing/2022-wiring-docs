@@ -1,0 +1,15 @@
+(kicad_sch (version 20211123) (generator eeschema)
+
+  (uuid 1c018c83-e994-4502-ad39-0ee27c459fff)
+
+  (paper "A4")
+
+  (lib_symbols
+  )
+
+
+  (hierarchical_label "BR_PRESS" (shape output) (at 127 92.71 0)
+    (effects (font (size 1.27 1.27)) (justify left))
+    (uuid 41b25145-b068-4001-a63f-b502c1fa1e39)
+  )
+)

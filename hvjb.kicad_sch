@@ -1,0 +1,36 @@
+(kicad_sch (version 20211123) (generator eeschema)
+
+  (uuid 305f4b4e-bb09-4dd2-8a7a-72ee18a3c317)
+
+  (paper "A4")
+
+  (title_block
+    (title "LV Subsystem interconnections")
+    (date "2022-03-16")
+    (rev "0.1")
+    (company "Oxford University Racing")
+    (comment 1 "Hugo Berg, Becky Hu, Lianfeng Shi")
+    (comment 2 "Electronics team")
+  )
+
+  (lib_symbols
+  )
+
+
+  (hierarchical_label "HV_SENSE 1" (shape output) (at 90.17 78.74 0)
+    (effects (font (size 1.27 1.27)) (justify left))
+    (uuid 02e6518f-25d9-4273-b795-90d5c04c6e13)
+  )
+  (hierarchical_label "HV_SENSE_VCC" (shape output) (at 90.17 83.82 0)
+    (effects (font (size 1.27 1.27)) (justify left))
+    (uuid 2cbc820c-612f-436d-b7c3-fd29f8f739a8)
+  )
+  (hierarchical_label "HV_SENSE_GND" (shape output) (at 90.17 86.36 0)
+    (effects (font (size 1.27 1.27)) (justify left))
+    (uuid 87dc0298-8f0a-4394-93b0-e8f028500011)
+  )
+  (hierarchical_label "HV_SENSE 2" (shape output) (at 90.17 81.28 0)
+    (effects (font (size 1.27 1.27)) (justify left))
+    (uuid a6d07d6f-6e6e-407f-87b4-0897b8473c45)
+  )
+)

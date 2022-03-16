@@ -1,0 +1,44 @@
+(kicad_sch (version 20211123) (generator eeschema)
+
+  (uuid d6589ff0-a2e5-4823-875b-e2720c689714)
+
+  (paper "A4")
+
+  (title_block
+    (title "LV Subsystem interconnections")
+    (date "2022-03-16")
+    (rev "0.1")
+    (company "Oxford University Racing")
+    (comment 1 "Hugo Berg, Becky Hu, Lianfeng Shi")
+    (comment 2 "Electronics team")
+  )
+
+  (lib_symbols
+  )
+
+
+  (hierarchical_label "AUDIO-" (shape input) (at 120.65 93.98 0)
+    (effects (font (size 1.27 1.27)) (justify left))
+    (uuid 1199c925-d6dc-472a-83e9-204424261138)
+  )
+  (hierarchical_label "GND" (shape input) (at 120.65 83.82 0)
+    (effects (font (size 1.27 1.27)) (justify left))
+    (uuid 2c861abb-121d-493c-ac21-df87a88c5937)
+  )
+  (hierarchical_label "12V" (shape input) (at 120.65 81.28 0)
+    (effects (font (size 1.27 1.27)) (justify left))
+    (uuid b6598909-8b28-40c1-a29c-2f4b97b26ab6)
+  )
+  (hierarchical_label "DASHLED-" (shape input) (at 120.65 86.36 0)
+    (effects (font (size 1.27 1.27)) (justify left))
+    (uuid ba4d44ca-1c75-4e5f-beb6-caab71cf5ab8)
+  )
+  (hierarchical_label "CAN_BUS" (shape tri_state) (at 120.65 91.44 0)
+    (effects (font (size 1.27 1.27)) (justify left))
+    (uuid c21524a3-07a9-4a71-9a9b-ebd50ea1daf0)
+  )
+  (hierarchical_label "LED+" (shape input) (at 120.65 88.9 0)
+    (effects (font (size 1.27 1.27)) (justify left))
+    (uuid d2192b2e-40b0-4ec3-b1c4-dd4ad68d721e)
+  )
+)
