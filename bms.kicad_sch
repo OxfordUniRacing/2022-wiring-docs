@@ -1,0 +1,15 @@
+(kicad_sch (version 20211123) (generator eeschema)
+
+  (uuid 1c018c83-e994-4502-ad39-0ee27c459fff)
+
+  (paper "A4")
+
+  (lib_symbols
+  )
+
+
+  (hierarchical_label "CAN_BUS" (shape tri_state) (at 123.19 88.9 0)
+    (effects (font (size 1.27 1.27)) (justify left))
+    (uuid 72ce6fc1-fa75-475c-9088-e743c6fbbba0)
+  )
+)
